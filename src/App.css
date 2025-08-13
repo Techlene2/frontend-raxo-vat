@@ -1,0 +1,37 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+  body {
+      background-color: #f4f6f7 !important;
+      font-family: 'Inter' !important;
+  }
+
+  .hr_line {
+      margin: inherit !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+      color: #222022 !important;
+  }
+
+  a {
+      text-decoration: none !important;
+  }
+
+  .match_height {
+      height: 100% !important;
+  }
+
+  .outlet_collapsed {
+      /* margin-left: 85px; */
+      margin-top: 8px;
+  }
+
+  .outlet_not_collapsed {
+      /* margin-left: 255px; */
+      margin-top: 8px;
+  }

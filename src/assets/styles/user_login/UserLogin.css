@@ -1,0 +1,53 @@
+.login_bg_height {
+    height: 100vh;
+    text-align: center;
+}
+
+.login_bg_max {
+    max-height: 100% !important;
+}
+
+.login_bg {
+    padding: 30px;
+    /* background-color: #c2c7ff; */
+}
+
+.login_logo {
+    /* height: 100px; */
+    text-align: center;
+}
+
+.login_details {
+    padding: 30px 30px 70px 30px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 15px;
+    background-color: #ffffff !important; */
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.login_details1 p {
+    color: #ffffff;
+}
+
+.body-overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.login-input:focus {
+    box-shadow: none !important;
+    border-color: #DEE2E6 !important;
+}

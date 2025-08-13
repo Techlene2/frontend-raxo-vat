@@ -1,0 +1,133 @@
+const Customer = {
+
+    // FIELDS
+    "personal_information": "Personal Information",
+    "customer_name": "Customer Name",
+    "short_name": "Short Name",
+    "customer_category": "Customer Category",
+    "grade": "Grade",
+
+    "contact_information": "Contact Information",
+    "customer_type": "Customer type",
+    "postal_code": "Postal Code",
+    "city": "City",
+    "po_box": "PO Box",
+    "website": "Website",
+    "fax": "Fax",
+    "office_no": "Office Contact Number",
+    "address": "Address",
+    "status": "Status",
+
+    "person_information": "Person Information",
+    "person_name": "Person Name",
+    "designation": "Designation",
+    "department": "Department",
+    "mobile": "Mobile",
+    "email": "Email",
+
+    "general_information": "General Information",
+    "tax_type": "Tax Type",
+    "currency": "Currency",
+    "customer_group": "Customer Group",
+    "black_listed": "Black Listed",
+    "region": "Region",
+    "vat_no": "VAT Number",
+    "pan_no": "PAN Number",
+    "registration_no": "Registration Number",
+    "credit_days": "Credit Days",
+    "credit_limit": "Credit Limit",
+    "lat": "Latitude",
+    "lng": "Longitude",
+
+    "dispatch_information": "Customer Dispatch Detail",
+    "name": "Name",
+    "pin": "PIN",
+    "gst_no": "GST No",
+    "priority": "Priority",
+    "search": "Search",
+
+    // BUTTON
+    "add": "Add",
+    "submit": "Submit",
+    "update": "Update",
+    "apply": "Apply",
+    "clear": "Clear",
+    "cancel": "Cancel",
+    "ok": "Ok",
+
+    // PAGE HEADER  
+    "customer": "Customer",
+    "filter": "Filter",
+
+    // TOOLTIP
+    "download": "Download",
+    "pdf": "PDF",
+    "excel": "Excel",
+    "edit": "Edit",
+    "details": "Details",
+    "active": "Activate",
+    "de_active": "De-Activate",
+    "confirm": "Confirm",
+    "delete": "Delete",
+
+    // TOAST
+    "success_add": "Added Successfully",
+    "success_update": "Updated Successfully",
+    "wrong": "Something went wrong",
+
+    // SWEET ALERT
+    "active_confirm_text": "Are You Sure Want To Activate Customer?",
+    "deactive_confirm_text": "Are You Sure Want To De-Activate Customer?",
+    "confirm_text": "Are You Sure Want To Delete Customer?",
+    "delete_text": "Deleted Successfully",
+    "status_text": "Status Successfully Changed",
+
+    // ERROR
+    "error_customer_name": "Enter Customer Name",
+    "error_short_name": "Enter Short Name",
+    "error_customer_category": "Select Customer Category",
+    "error_grade": "Select Grade",
+    "error_customer_type": "Select Customer Type",
+    "error_postal_code": "Enter Postal Code",
+    "error_city": "Select City",
+    "error_po_box": "Enter PO Box Number",
+    "error_website": "Enter Website Link",
+    "error_fax": "Enter Fax Number",
+    "error_office_no": "Enter Office Number",
+    "error_address": "Enter Address",
+    "error_status": "Select Status",
+    "error_person_name": "Enter Name",
+    "error_designation": "Enter Designation",
+    "error_department": "Select Department",
+    "error_mobile": "Enter Mobile Number",
+    "error_email": "Enter Email",
+    "error_tax_type": "Select Tax Type",
+    "error_currency": "Select Currency",
+    "error_customer_group": "Select Customer Group",
+    "error_black_listed": "Select Blacklisted",
+    "error_region": "Select Region",
+    "error_vat_no": "Enter VAT Number",
+    "error_pan_no": "Enter PAN Number",
+    "error_register_no": "Enter Registration Number",
+    "error_credit_days": "Enter Credit Days",
+    "error_credit_limit": "Enter Credit Limit",
+    "error_lat": "Enter Latitude",
+    "error_lng": "Enter Longitude",
+    "error_pin": "Enter PIN",
+    "error_gst_no": "Enter GST Number",
+    "error_priority": "Enter Priority",
+    "error_type_error": "Enter only number",
+
+    // TABLE HEADER
+    "table_no": "NO",
+    "table_name": 'NAME',
+    "table_grade": 'GRADE',
+    "table_type": "TYPE",
+    "table_city": "CITY",
+    "table_customer_group": "CUSTOMER GROUP",
+    "table_status": "STATUS",
+    "table_action": "ACTION",
+
+}
+
+export default Customer;

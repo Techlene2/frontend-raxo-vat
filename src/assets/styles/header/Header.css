@@ -1,0 +1,23 @@
+.navbar-logo {
+    height: 40px;
+    padding: 4px;
+}
+
+.navbar_body {
+    background-color: #032d42;
+    padding: 0px;
+}
+
+/* .navbar_body_collapsed {
+    background-color: #032d42;
+    margin-left: 80px;
+    border-bottom: 2px solid #21263c;
+    padding: 0px;
+}
+
+.navbar_body_notcollapsed {
+    background-color: #032d42;
+    margin-left: 250px;
+    border-bottom: 2px solid #21263c;
+    padding: 0px;
+} */

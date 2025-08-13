@@ -1,0 +1,140 @@
+.profile_sec {
+    background-color: white;
+    padding: 15px 0px;
+    border-radius: 10px;
+    height: 77vh;
+}
+
+.dashboard_card {
+    padding: 10px 25px;
+    background-color: white;
+    z-index: -1 !important;
+}
+
+.dashboard_card p {
+    font-weight: 600 !important;
+    font-size: 16px;
+    color: #4e58ad;
+    margin-bottom: 0px;
+}
+
+.dashboard_card span {
+    color: #3b3f5c !important;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.piils_btn .nav-link {
+    color: #9d9d9d !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    border: none !important;
+}
+
+.piils_btn .nav-link.active {
+    border: none !important;
+    border-bottom: 2px solid #4e58ad !important;
+    color: #4e58ad !important;
+    width: 100% !important;
+    border-radius: 0px !important;
+}
+
+.user_img_section {
+    height: 110px !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.user_img {
+    box-shadow: 0px 5px 30px #12113636;
+    border: solid 3px #2a2f5aa8;
+    height: 100% !important;
+    padding: 5px;
+    width: 110px !important;
+    border-radius: 50%;
+}
+
+.user_name_details h5 {
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.profile_sec p {
+    margin-bottom: 0px;
+    color: #3b3f5c;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.profile_sec span {
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.795);
+}
+
+hr {
+    margin: 8px !important;
+    opacity: 0.35 !important;
+}
+
+.item_table .table-responsive {
+    height: 60vh;
+}
+
+.item_table thead th {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 999;
+}
+
+.item_table tfoot td {
+    position: sticky;
+    bottom: 0;
+}
+
+.planning_sales_order .table-responsive {
+    height: 63vh;
+}
+
+.planning_sales_order thead th {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 999;
+}
+
+.sales_order_routes .table-responsive {
+    height: 65vh;
+}
+
+.sales_order_routes thead th {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 999;
+}
+
+.sales_order_bg_green td {
+    background-color: #d9ead3;
+}
+
+.sales_order_bg_yellow td {
+    background-color: #fff2cc;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: none;
+    appearance: textfield;
+    outline: none;
+}

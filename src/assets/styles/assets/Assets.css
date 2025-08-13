@@ -1,0 +1,185 @@
+/* BUTTON CSS START  */
+
+/* .save_btn {
+    background-image: linear-gradient(to right, #B993D6 0%, #8CA6DB 51%, #B993D6 100%);
+    padding: 10px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+
+.save_btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+} */
+
+/* .close_btn {
+    background-image: linear-gradient(to right, #757F9A 0%, #D7DDE8 51%, #757F9A 100%);
+    padding: 10px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+
+.close_btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+} */
+
+/* .add_btn {
+    /* background-image: linear-gradient(to right, #D1913C 0%, #FFD194 51%, #D1913C 100%); 
+    background-image: linear-gradient(to right, #B993D6 0%, #8CA6DB 51%, #B993D6 100%);
+    padding: 5px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.add_btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+} */
+
+/* BUTTON CSS END  */
+
+/* FORM INPUT AND LABEL CSS START  */
+
+.form_label {
+    font-size: 11px;
+    color: #7a7a7a;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.form_label_red {
+    font-size: 11px;
+    color: #E54643;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.form_input {
+    /* border-width: 1.5px; */
+    border-color: hsl(0, 0%, 80%);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: inherit;
+    padding: 4px 0px;
+    font-size: 14px;
+}
+
+.form_input:focus {
+    border-color: #032d42 !important;
+    box-shadow: none !important;
+}
+
+.form_select:focus {
+    border-color: #032d42 !important;
+    box-shadow: none !important;
+}
+
+.form_check {
+    font-size: 14px;
+}
+
+.form-check-input {
+    border-color: hsl(0, 0%, 80%);
+}
+
+.form-check-input:focus {
+    box-shadow: none !important;
+}
+
+/* FORM INPUT AND LABEL CSS END  */
+
+/* REACT SELECT INPUT CSS START */
+
+.select__value-container {
+    padding: 0px !important;
+}
+
+.select__indicator {
+    padding: 6px !important;
+}
+
+/* REACT SELECT INPUT CSS END */
+
+/* ALL PAGES COMMAN CSS */
+
+.layout {
+    padding: 8px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 8px;
+}
+
+.no_content_img {
+    height: 375px;
+    text-align: center;
+}
+
+.no_content_data {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.no_content_data p {
+    color: #7a7a7a;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.hr_line {
+    margin: inherit !important;
+}
+
+.modal-header .btn-close {
+    margin: inherit;
+}
+
+/* ALL PAGES COMMAN END */
+
+/* FIELD ARRAY ADD DELETE BUTTON CSS */
+
+/* .array_add_btn {
+    background-color: #032d42;
+    border: none !important;
+    padding: 5px 10px 7px 10px;
+    text-align: center;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+} */
+
+/* .array_del_btn {
+    background-color: rgb(239, 61, 80);
+    border: none !important;
+    padding: 5px 10px 7px 10px;
+    text-align: center;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+} */
+
+/* FIELD ARRAY ADD DELETE BUTTON CSS END */
+
+.page-link:focus {
+    box-shadow: none;
+}

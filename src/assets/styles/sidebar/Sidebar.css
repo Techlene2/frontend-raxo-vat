@@ -1,0 +1,25 @@
+.sidebar_notCollapsed {
+    width: 250px;
+    position: fixed !important;
+    top: 0;
+    z-index: 9;
+}
+
+.sidebar_collapsed {
+    width: 81.5px;
+    position: fixed !important;
+    top: 0;
+    z-index: 9;
+}
+
+.sidebar_header {
+    padding: 10px;
+    border-bottom: 2px solid #21263c;
+    height: 57.5px;
+    text-align: center;
+    background-color: #21263c;
+}
+
+.ant-menu-item-selected a {
+    font-weight: 600;
+}

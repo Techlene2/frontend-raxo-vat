@@ -1,0 +1,36 @@
+.details {
+    cursor: pointer;
+}
+
+.details:focus {
+    outline: 0;
+}
+
+.edit {
+    cursor: pointer;
+}
+
+.edit:focus {
+    outline: 0;
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.delete:focus {
+    outline: 0;
+}
+
+.eye {
+    cursor: pointer;
+}
+
+.eye:focus {
+    outline: 0;
+}
+
+.tooltip_msg{
+    line-height: 1;
+    z-index: 999;
+}
