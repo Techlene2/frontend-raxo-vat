@@ -83,7 +83,7 @@ const accessUserManagement = {
     },
 
     ADD_COUNTRY: {
-        path: '/add-country'
+        path: '/create-country'
     },
 
     UPDATE_COUNTRY: {
@@ -96,7 +96,7 @@ const accessUserManagement = {
     },
 
     ADD_STATE: {
-        path: '/add-state'
+        path: '/create-state'
     },
 
     UPDATE_STATE: {
@@ -109,7 +109,7 @@ const accessUserManagement = {
     },
 
     ADD_CITY: {
-        path: '/add-city'
+        path: '/create-city'
     },
 
     UPDATE_CITY: {

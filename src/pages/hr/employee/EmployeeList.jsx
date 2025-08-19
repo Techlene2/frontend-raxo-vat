@@ -128,7 +128,7 @@ export default function EmployeeList() {
                         <div className='d-flex align-items-center'>
 
                             {permission.some(val => val.actionName == 'Add Employee') ?
-                                <Link to='/add-employee'>
+                                <Link to='/create-employee'>
                                     <AddButton button_name={lang.add} />
                                 </Link>
                                 : ''

@@ -44,7 +44,7 @@ const accessHR = {
     },
 
     ADD_EMPLOYEE: {
-        path: '/add-employee'
+        path: '/create-employee'
     },
 
     UPDATE_EMPLOYEE: {

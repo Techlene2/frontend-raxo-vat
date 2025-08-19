@@ -108,7 +108,7 @@ export default function CountryList() {
                             <div className='d-flex align-items-center'>
 
                                 {permission.some(val => val.actionName == 'Add Country') ?
-                                    <Link to='/add-country'>
+                                    <Link to='/create-country'>
                                         <AddButton button_name={lang.add} />
                                     </Link>
                                     : ''

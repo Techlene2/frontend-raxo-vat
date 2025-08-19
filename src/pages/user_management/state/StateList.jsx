@@ -111,7 +111,7 @@ export default function StateList() {
                             <div className='d-flex align-items-center'>
 
                                 {permission.some(val => val.actionName == 'Add State') ?
-                                    <Link to='/add-state'>
+                                    <Link to='/create-state'>
                                         <AddButton button_name={lang.add} />
                                     </Link>
                                     : ''

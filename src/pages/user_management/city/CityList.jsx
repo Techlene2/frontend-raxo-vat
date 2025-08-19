@@ -116,7 +116,7 @@ export default function CityList() {
                             <div className='d-flex align-items-center'>
 
                                 {permission.some(val => val.actionName == 'Add City') ?
-                                    <Link to='/add-city'>
+                                    <Link to='/create-city'>
                                         <AddButton button_name={lang.add} />
                                     </Link>
                                     : ''
